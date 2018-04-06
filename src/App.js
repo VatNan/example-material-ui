@@ -5,7 +5,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 class App extends React.Component {
   render() {
     return (
-      <MuiThemeProvider>
+      <div>
         <h1>materail-ui</h1>
         <div>
           <RaisedButton label="Default" style={{ margin: 12 }} />
@@ -16,7 +16,7 @@ class App extends React.Component {
           <br />
           <RaisedButton label="Full width" fullWidth />
         </div>
-      </MuiThemeProvider>
+      </div>
     );
   }
 }
